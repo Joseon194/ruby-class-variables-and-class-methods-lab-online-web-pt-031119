@@ -9,5 +9,11 @@ class Song
   def self.count
     @@count
   end
+  
+  @@genres = []
+  
+  def initialize
+    @@genres += 1
+  end
 end
   
